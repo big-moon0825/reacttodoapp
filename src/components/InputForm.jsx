@@ -9,7 +9,6 @@ export const InputForm = ({ taskList, setTaskList }) => {
     if (inputText === "") {
       return;
     }
-    // console.log("add task");
 
     /* タスクを追加する。 */
     setTaskList([
@@ -20,13 +19,11 @@ export const InputForm = ({ taskList, setTaskList }) => {
         completed: false,
       },
     ]);
-    // console.log(taskList);
     setInputText("");
   };
 
   const handleChange = (e) => {
     setInputText(e.target.value);
-    console.log(inputText);
   };
 
   return (
