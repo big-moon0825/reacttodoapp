@@ -5,7 +5,7 @@ export const Title = () => {
   return (
     <div>
       <header>
-        <h1>研究開発用TODOアプリ</h1>
+        <h1>振り返りKPTシート</h1>
       </header>
     </div>
   );
